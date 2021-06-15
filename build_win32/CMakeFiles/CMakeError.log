@@ -1,0 +1,58 @@
+Detecting OBJCXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_47082.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.10.1+2fd48ab73 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/3.20.21032501-MSVC_2/CMakeDetermineCompilerABI_OBJCXX.bin'
+Unable to find the executable at any of:
+  C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/CMakeTmp/cmTC_47082.exe
+  C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/CMakeTmp/Debug/cmTC_47082.exe
+  C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/CMakeTmp/Development/cmTC_47082.exe
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_5d7ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.10.1+2fd48ab73 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d7ef.dir\Debug\\" /Fd"cmTC_5d7ef.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W1 /Gd /TC /errorReport:queue C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\src.c(4,27): error C2061: syntax error: identifier 'x1' [C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\cmTC_5d7ef.vcxproj]
+C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\src.c(4,27): error C2059: syntax error: ';' [C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\cmTC_5d7ef.vcxproj]
+
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_GAMEPAD_EX x1;
+        int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Users/ASUS/Downloads/UMaze_ECS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_81fee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.10.1+2fd48ab73 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81fee.dir\Debug\\" /Fd"cmTC_81fee.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W1 /Gd /TC /errorReport:queue C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\src.c(4,25): error C2061: syntax error: identifier 's1' [C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\cmTC_81fee.vcxproj]
+C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\src.c(4,25): error C2059: syntax error: ';' [C:\Users\ASUS\Downloads\UMaze_ECS\build\CMakeFiles\CMakeTmp\cmTC_81fee.vcxproj]
+
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_STATE_EX s1;
+        int main(int argc, char **argv) { }

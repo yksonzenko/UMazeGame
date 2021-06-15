@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB761C28-FE5D-3093-B121-49FA4B47E1D8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>maze</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UMaze_ECS\build\game\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">maze.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">maze</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UMaze_ECS\build\game\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">maze.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">maze</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UMaze_ECS\game\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\framework\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UMaze_ECS\engine\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\json\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\tmxlite\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\glm\glm\..;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx\.;C:\Users\ASUS\Downloads\UMaze_ECS\game\src\ECS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UMaze_ECS\game\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\framework\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UMaze_ECS\engine\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\json\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\tmxlite\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\glm\glm\..;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx\.;C:\Users\ASUS\Downloads\UMaze_ECS\game\src\ECS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UMaze_ECS\game\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\framework\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UMaze_ECS\engine\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\json\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\tmxlite\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\glm\glm\..;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx\.;C:\Users\ASUS\Downloads\UMaze_ECS\game\src\ECS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/ASUS/Downloads/UMaze_ECS/game/assets C:/Users/ASUS/Downloads/UMaze_ECS/build/game/Debug/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\engine\minikit\framework\Debug\MiniKit.Framework.lib;..\engine\Debug\Engine.lib;src\Debug\EntityCS.lib;..\engine\Debug\Engine.lib;..\engine\minikit\framework\Debug\MiniKit.Framework.lib;..\engine\minikit\external\ImGUI\Debug\ImGui.lib;..\engine\minikit\external\SDL2\Debug\SDL2d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;setupapi.lib;shell32.lib;dinput8.lib;d3d11.lib;dxguid.lib;..\engine\external\tmxlite\Debug\tmxlite-d.lib;..\engine\external\entityx\Debug\entityx-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/Downloads/UMaze_ECS/build/game/Debug/maze.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/Downloads/UMaze_ECS/build/game/Debug/maze.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UMaze_ECS\game\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\framework\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UMaze_ECS\engine\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\json\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\tmxlite\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\glm\glm\..;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx\.;C:\Users\ASUS\Downloads\UMaze_ECS\game\src\ECS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UMaze_ECS\game\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\framework\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UMaze_ECS\engine\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\json\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\tmxlite\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\glm\glm\..;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx\.;C:\Users\ASUS\Downloads\UMaze_ECS\game\src\ECS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UMaze_ECS\game\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\framework\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UMaze_ECS\engine\src;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\json\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\tmxlite\include;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\glm\glm\..;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx;C:\Users\ASUS\Downloads\UMaze_ECS\engine\external\entityx\.;C:\Users\ASUS\Downloads\UMaze_ECS\game\src\ECS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/ASUS/Downloads/UMaze_ECS/game/assets C:/Users/ASUS/Downloads/UMaze_ECS/build/game/Release/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\engine\minikit\framework\Release\MiniKit.Framework.lib;..\engine\Release\Engine.lib;src\Release\EntityCS.lib;..\engine\Release\Engine.lib;..\engine\minikit\framework\Release\MiniKit.Framework.lib;..\engine\minikit\external\ImGUI\Release\ImGui.lib;..\engine\minikit\external\SDL2\Release\SDL2.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;setupapi.lib;shell32.lib;dinput8.lib;d3d11.lib;dxguid.lib;..\engine\external\tmxlite\Release\tmxlite.lib;..\engine\external\entityx\Release\entityx.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/Downloads/UMaze_ECS/build/game/Release/maze.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/Downloads/UMaze_ECS/build/game/Release/maze.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UMaze_ECS/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UMaze_ECS -BC:/Users/ASUS/Downloads/UMaze_ECS/build --check-stamp-file C:/Users/ASUS/Downloads/UMaze_ECS/build/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UMaze_ECS\build\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UMaze_ECS/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UMaze_ECS -BC:/Users/ASUS/Downloads/UMaze_ECS/build --check-stamp-file C:/Users/ASUS/Downloads/UMaze_ECS/build/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UMaze_ECS\build\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\main.cpp" />
+    <ResourceCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\assets\images\pacman_icon.rc" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Game\Game.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Game\Game.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Menu\Menu.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Menu\Menu.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\FirstLevel.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\FirstLevel.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\SecondLevel.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\SecondLevel.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pacman\Pacman.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pacman\Pacman.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Map\Map.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Map\Map.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\RedBlinky.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\RedBlinky.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\PinkPinky.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\PinkPinky.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pathfinder\AStar.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pathfinder\AStar.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Score\Score.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Score\Score.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\GameHUDView\GameHUDView.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\GameHUDView\GameHUDView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\ZERO_CHECK.vcxproj">
+      <Project>{17E6D0A4-4693-3F2A-BBDA-89E609EAB461}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\engine\Engine.vcxproj">
+      <Project>{1A46EDAE-DE69-389B-9FF0-BFCEBCE47EF0}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\game\src\EntityCS.vcxproj">
+      <Project>{1B9008BC-2797-3254-8E1E-2B23844EE4E4}</Project>
+      <Name>EntityCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\engine\minikit\external\ImGUI\ImGui.vcxproj">
+      <Project>{FD168A44-9931-33FE-973E-A26040FA84E3}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\engine\minikit\framework\MiniKit.Framework.vcxproj">
+      <Project>{A313CCFF-F9C4-36C2-A49C-161EF93CB3C4}</Project>
+      <Name>MiniKit.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\engine\minikit\external\SDL2\SDL2-static.vcxproj">
+      <Project>{CC5AA3E6-4BFC-3553-876B-1EEDCFB07993}</Project>
+      <Name>SDL2-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\engine\external\entityx\entityx.vcxproj">
+      <Project>{7A1F1D37-FBFB-315E-B7F8-C60B9112FAA3}</Project>
+      <Name>entityx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UMaze_ECS\build\engine\external\tmxlite\tmxlite.vcxproj">
+      <Project>{94897E1C-38B0-39D8-A17D-D113E1CA0BB8}</Project>
+      <Name>tmxlite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

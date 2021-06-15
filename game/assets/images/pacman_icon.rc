@@ -1,0 +1,6 @@
+#ifndef _resource_rc
+#define _resource_rc
+
+MAINICON ICON "pacman_main_win.ico"
+
+#endif // _resource_rc

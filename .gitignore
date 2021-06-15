@@ -1,0 +1,14 @@
+.DS_Store
+obj
+../.idea
+._.DS_Store
+*.o
+*.out
+out
+.vscode
+.vs
+/cmake-build-debug/
+.idea
+build
+cmake-build-debug-visual-studio
+#CMakeSettings.json

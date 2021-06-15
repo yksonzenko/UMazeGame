@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Game\Game.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Menu\Menu.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\FirstLevel.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\SecondLevel.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pacman\Pacman.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Map\Map.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\RedBlinky.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\PinkPinky.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pathfinder\AStar.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Score\Score.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\GameHUDView\GameHUDView.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Game\Game.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Menu\Menu.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\FirstLevel.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Levels\SecondLevel.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pacman\Pacman.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Map\Map.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\RedBlinky.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Ghosts\PinkPinky.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Pathfinder\AStar.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\Score\Score.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\src\GameHUDView\GameHUDView.hpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ASUS\Downloads\UMaze_ECS\game\assets\images\pacman_icon.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D9C2E58C-818A-3BBC-A19D-508B39C48E84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{BECB3AC8-CEAE-35A2-9B12-7023017AFCE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
