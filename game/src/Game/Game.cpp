@@ -24,13 +24,8 @@ namespace GameEngine
 
 		World::getWorld()->globalTime()->getGlobalTime();
 
-		// just testing draw viewport borders
-		if (World::getWorld()->viewPort()->setToViewPos({ 0, 0 }, { 0, 0 }))
-		{
-			World::getWorld()->viewPort()->drawViewPortBoundaries(*World::getWorld()->getCommandBuffer());
-		}
-		//------------
 		World::getWorld()->sceneManager()->updateCurrentScene();
+		
 		gameScore_->getHUD().update(gameScore_->getScore());
 	}
 

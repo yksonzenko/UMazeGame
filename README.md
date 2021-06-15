@@ -11,8 +11,10 @@ To sum up, I want you to delve into the atmosphere of one of the best arcade gam
 <img align="left" src="./game/assets/images/other/blinky.png" height="20px">
 
 # Game process
-
-![tetris.gif](./game/assets/pacman.gif)
+###### win
+![tetris.gif](./game/assets/pacman_win.gif)
+###### game over
+![tetris.gif](./game/assets/pacman_game_over.gif)
 
 <img align="left" src="./game/assets/images/other/pinky.png" height="20px">
 
